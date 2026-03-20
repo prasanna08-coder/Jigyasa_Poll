@@ -1,0 +1,5 @@
+__pycache__/
+*.json
+.env
+.DS_Store
+polls_data.json
