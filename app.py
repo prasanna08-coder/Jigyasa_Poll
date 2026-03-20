@@ -67,7 +67,7 @@ st.markdown("""
     .particles-layer-3 { position: fixed; top: 0; left: 0; width: 6px; height: 6px; border-radius: 50%; background: transparent; box-shadow: 28vw 4vh 3px #8b5cf6, 81vw 90vh 3px #ffffff, 80vw 50vh 3px #3b82f6, 37vw 10vh 3px #8b5cf6, 32vw 83vh 3px #ffffff, 67vw 70vh 3px #ffffff, 16vw 19vh 3px #3b82f6, 87vw 73vh 3px #ffffff, 93vw 32vh 3px #ffffff, 74vw 57vh 3px #10b981, 64vw 50vh 3px #8b5cf6, 14vw 99vh 3px #10b981, 4vw 17vh 3px #8b5cf6, 74vw 42vh 3px #3b82f6, 77vw 12vh 3px #3b82f6, 65vw 70vh 3px #3b82f6, 40vw 53vh 3px #8b5cf6, 37vw 65vh 3px #10b981, 2vw 76vh 3px #8b5cf6, 11vw 97vh 3px #8b5cf6, 39vw 35vh 3px #3b82f6, 9vw 46vh 3px #3b82f6, 27vw 70vh 3px #8b5cf6, 57vw 36vh 3px #10b981, 63vw 38vh 3px #8b5cf6, 48vw 83vh 3px #8b5cf6, 64vw 4vh 3px #ffffff, 22vw 47vh 3px #8b5cf6, 12vw 9vh 3px #ffffff, 70vw 71vh 3px #8b5cf6; animation: animParticle 60s linear infinite; opacity: 0.6; pointer-events: none; z-index: 0; }
     .particles-layer-1::after, .particles-layer-2::after, .particles-layer-3::after { content: ' '; position: absolute; top: 100vh; width: 100%; height: 100%; border-radius: 50%; background: transparent; box-shadow: inherit; }
 
-    @keyframes animParticle { 0% { transform: translateY(0); } 100% { transform: translateY(-100vh); } } 100% { transform: translateY(-100vh); } }
+    @keyframes animParticle { 0% { transform: translateY(0); } 100% { transform: translateY(-100vh); } }
 /* Base typography and background */
     html, body, [class*="css"] {
         font-family: 'Plus Jakarta Sans', sans-serif !important;
