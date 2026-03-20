@@ -1,32 +1,106 @@
-# Jigyasa Polling & Insights Platform 📊
+# Jigyasa Polling & Insights Platform
 
-A beautifully crafted, modern polling dashboard built with **Streamlit**. Designed with a premium dark-mode SaaS aesthetic, this application empowers organizers to move from casually collecting opinions to making real-time, data-driven decisions with absolute clarity.
+A web-based polling and decision-support application designed for college events such as Jigyasa. The platform enables organizers to collect participant preferences and derive actionable insights for better decision-making.
 
-## ✨ Features
-- **Premium Dribbble-inspired UI:** Glassmorphism cards, deep gradient active states, and a highly polished dark mode.
-- **Dynamic CSS Animations:** Features a 3-layer parallax starfield background, glowing hover states, and smooth slide-in load transitions.
-- **Live Polling Output:** Real-time data visualization using Plotly (donut charts and voting score gauges).
-- **Admin Dashboard:** Secure organizer tools to create polls, monitor voter lists, and manage poll lifecycles.
-- **Intelligent Insights:** Auto-computing consensus indicators summarizing the active poll outcome.
+---
 
-## 🚀 How to Run Locally
+## Live Demo
 
-1. **Install Requirements:**
-   Make sure you have Python installed, then run:
-   ```bash
-   pip install -r requirements.txt
-   ```
+https://jigyasapoll.streamlit.app/
 
-2. **Launch the Platform:**
-   ```bash
-   streamlit run app.py
-   ```
+---
 
-## 🛠 Tech Stack
-- **Python** & **Streamlit** (Backend & Framework)
-- **Plotly** (Data Visualization)
-- **Pandas** (Data structure processing)
-- **Custom CSS³** (Animations & Styling injections)
+## Problem Statement
 
-## 💡 About
-*Make real-time, data-driven decisions for Jigyasa events. Collect votes, analyze preferences, and finalize outcomes with clarity.*
+In college events, key decisions such as event timing, format, and participation structure are often made through informal channels like group chats or verbal discussions. This results in:
+
+- Unstructured and scattered responses  
+- Lack of clear majority or consensus  
+- Difficulty in analyzing participant preferences  
+
+---
+
+## Solution
+
+This application provides a centralized and structured system to:
+
+- Create polls for event-related decisions  
+- Collect responses in a standardized format  
+- Analyze voting patterns effectively  
+- Present clear insights to support decision-making  
+
+---
+
+## Features
+
+### Poll Creation
+- Create polls with multiple options  
+- Flexible for various event use cases  
+
+### Voting System
+- Simple and intuitive voting interface  
+- Duplicate vote prevention mechanism  
+
+### Results Dashboard
+- Displays total votes and winning option  
+- Percentage-based vote distribution  
+- Visual representation using charts  
+
+### Insights Engine
+- Detects leading option or tie scenarios  
+- Classifies response patterns:
+  - Clear consensus  
+  - Moderate preference  
+  - Split opinion  
+- Provides a recommended decision  
+
+### User Interface
+- Clean and structured layout  
+- Consistent spacing and alignment  
+- Responsive design for usability  
+
+---
+
+## Tech Stack
+
+- Python  
+- Streamlit  
+- Pandas  
+- Matplotlib  
+
+---
+
+## Implementation Overview
+
+- Polls are defined with multiple options and corresponding vote tracking  
+- Duplicate voting is restricted through input validation logic  
+- Results are dynamically computed based on user responses  
+- Insights are generated using vote distribution and percentage analysis  
+
+---
+
+## Product Perspective
+
+This project goes beyond a basic polling tool by acting as a lightweight decision-support system. It bridges the gap between collecting opinions and making structured, data-driven decisions for event organizers.
+
+---
+
+## Future Enhancements
+
+- Persistent database integration  
+- Poll scheduling and lifecycle management  
+- Exportable reports and analytics  
+
+---
+
+## Author
+
+**Prasanna V**  
+Final Year B.Tech – Electronics and Communication Engineering  
+Puducherry Technological University  
+
+---
+
+## Conclusion
+
+This project demonstrates a structured approach to solving a real-world problem through clear product thinking, functional implementation, and user-centric design.
